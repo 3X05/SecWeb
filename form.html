@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script src="form.js"></script>
+    <link rel="stylesheet" href="estilo4.css">
+    <title>Login</title>
+</head>
+
+<body onload="PrimeroQueLlamo()">
+    <div>
+        <input type="text" id="nombre" />
+    </div>
+    <div>
+        <input type="text" onchange="validoLetras(event)" id="dni" />
+    </div>
+    <div>
+        <input type="password" id="pass" >
+    </div>
+    <div>
+        <label id="error"></label>
+    </div>
+    <div>
+        <input type="button" onclick="EnviarPass()" value="Loguear">
+    </div>
+
+</body>
+
+</html>

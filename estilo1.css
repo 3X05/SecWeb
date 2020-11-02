@@ -1,0 +1,16 @@
+body {
+  background-image: url("laptop.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 1500px 700px;
+}
+
+.botoncontinuar {
+  color: rgb(255, 255, 255);
+  background-color: crimson;
+}
+
+.tituloindex{
+  color: aliceblue;
+}

@@ -1,0 +1,327 @@
+body {
+    background-image: url("fondo1.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 1500px 700px;
+}
+.titulomain{
+  color: darkviolet;
+  text-align: center;
+  text-shadow: gold;
+}
+.subtextomain{
+  text-align: center;
+  color: rgb(5, 171, 201);
+}
+.botonmalware{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 4px;
+  font-size: 14px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.botonmalware:hover {
+  background: #868686b2;
+  box-shadow: 0 0 10px #868686b2, 0 0 40px#868686b2, 0 0 80px #868686b2;
+  transition-delay: 1s;
+}
+
+.botonmalware span{
+  position: absolute;
+  display: block;
+}
+
+#span1a{
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ff018db2);
+}
+
+.botonmalware:hover #span1a{
+  left: 100%;
+  transition: 1s;
+}
+
+#span1c{
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #ff018db2);
+}
+
+.botonmalware:hover #span1c{
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+#span1b{
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #ff018db2);
+}
+
+.botonmalware:hover #span1b{
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+#span1d{
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent,#ff018db2);
+}
+
+.botonmalware:hover #span1d{
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+
+.botonantivirus{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 4px;
+  font-size: 14px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.botonantivirus:hover {
+  background: #868686b2;
+  box-shadow: 0 0 10px #868686b2, 0 0 40px #868686b2, 0 0 80px #868686b2;
+  transition-delay: 1s;
+}
+
+.botonantivirus span{
+  position: absolute;
+  display: block;
+}
+
+#span2a{
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ff018db2);
+}
+
+.botonantivirus:hover #span2a{
+  left: 100%;
+  transition: 1s;
+}
+
+#span2c{
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent,#ff018db2);
+}
+
+.botonantivirus:hover #span2c{
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+#span2b{
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #ff018db2);
+}
+
+.botonantivirus:hover #span2b{
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+#span2d{
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #ff018db2);
+}
+
+.botonantivirus:hover #span2d{
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+
+.botonconsejos{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 4px;
+  font-size: 14px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.botonconsejos:hover {
+  background: #868686b2;
+  box-shadow: 0 0 10px #868686b2, 0 0 40px #868686b2, 0 0 80px #868686b2;
+  transition-delay: 1s;
+}
+
+.botonconsejos span{
+  position: absolute;
+  display: block;
+}
+
+#span3a{
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ff018db2);
+}
+
+.botonconsejos:hover #span3a{
+  left: 100%;
+  transition: 1s;
+}
+
+#span3c{
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent,#ff018db2);
+}
+
+.botonconsejos:hover #span3c{
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+#span3b{
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #ff018db2);
+}
+
+.botonconsejos:hover #span3b{
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+#span3d{
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #ff018db2);
+}
+
+.botonconsejos:hover #span3d{
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+
+.botonamenazas{
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 4px;
+  font-size: 14px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
+
+.botonamenazas:hover {
+  background: #868686b2;
+  box-shadow: 0 0 10px #868686b2, 0 0 40px #868686b2, 0 0 80px #868686b2;
+  transition-delay: 1s;
+}
+
+.botonamenazas span{
+  position: absolute;
+  display: block;
+}
+
+#span4a{
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ff018db2);
+}
+
+.botonamenazas:hover #span4a{
+  left: 100%;
+  transition: 1s;
+}
+
+#span4c{
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #ff018db2);
+}
+
+.botonamenazas:hover #span4c{
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+#span4b{
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent,#ff018db2);
+}
+
+.botonamenazas:hover #span4b{
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+#span4d{
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #ff018db2);
+}
+
+.botonamenazas:hover #span4d{
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
